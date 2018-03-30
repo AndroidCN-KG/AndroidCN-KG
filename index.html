@@ -11,7 +11,7 @@
 </head>
 <canvas id="canvas" width="500" height="500" style="background-color: yellow;"></canvas>
 
-<body>
+<body oncontextmenu=self.event.returnValue=false onselectstart="return false">
     <script> 
         var canvas = document.getElementById("canvas"); var cxt = canvas.getContext("2d");
         //画一个空心圆
